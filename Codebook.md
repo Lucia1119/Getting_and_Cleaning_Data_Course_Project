@@ -1,9 +1,9 @@
-#Codebook of data clean
+# Codebook of data clean
 This codebook describes the variables, the data, and any transformations or work performed to clean up the data.
 
 
-##files
-###file paths
+## files
+### file paths
 feature_path	
 activityLabels_path	
 testSet_path	
@@ -12,7 +12,7 @@ testSubject_path
 trainSet_path	
 train Label_path	
 trainSubject_path	
-###tables read directly from txt files
+### tables read directly from txt files
 testSetTable	
 testLabelTable	
 testSubjectTable	
