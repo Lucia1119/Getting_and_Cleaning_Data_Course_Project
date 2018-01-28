@@ -22,7 +22,7 @@ trainSubjectTable
 featureTable	
 activityLabelsTable	
 
-##variables
+## variables
 total_data: contains test and train data 	
 total_label: contains activity labels of both test and train data	
 total_subject: contains subject IDs of both test and train data	
@@ -32,7 +32,7 @@ total_dataset: contains test and train data with subject ID, activity and only t
 new_names: contains refined names of all columns of total_dataset	
 average_subject_activity: contains the average of each variable for each activity and each subject	
 
-##transformations
+## transformations
 total_data, total_label and total_subject are prepared by row binding of test and train datasets.	
 featureTable contains only names of all features via removing feature index from the original dataset.	
 variable names on total_data are replaced by featureTable.	
