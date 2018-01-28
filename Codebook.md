@@ -1,5 +1,5 @@
 # Codebook of data clean
-This codebook describes the variables, the data, and any transformations or work performed to clean up the data.
+This codebook describes the variables, the data, and any transformations performed to clean up the data.
 
 
 ## files 
@@ -21,7 +21,8 @@ This codebook describes the variables, the data, and any transformations or work
 * trainSubjectTable<br /> 
 * featureTable<br /> 
 * activityLabelsTable<br /> 
-
+<br /> 
+<br /> 
 ## variables
 * total_data: contains test and train data<br /> 
 * total_label: contains activity labels of both test and train data<br /> 
@@ -31,7 +32,8 @@ This codebook describes the variables, the data, and any transformations or work
 * total_dataset: contains test and train data with subject ID, activity and only the measurements on the mean and standard deviation for each measurement<br /> 
 * new_names: contains refined names of all columns of total_dataset<br /> 
 * average_subject_activity: contains the average of each variable for each activity and each subject<br /> 
-
+<br /> 
+<br /> 
 ## transformations
 * total_data, total_label and total_subject are prepared by row binding of test and train datasets.<br /> 
 * featureTable contains only names of all features via removing feature index from the original dataset.<br /> 
