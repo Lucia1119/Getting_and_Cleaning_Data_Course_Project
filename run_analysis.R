@@ -66,3 +66,6 @@ names(total_dataset)=new_names
 # total_dataset is the final data set after operations in step 1 to step 4
 average_subject_activity = total_dataset %>% group_by(subjectID,activity) %>% summarize_all(funs(mean))
 
+
+# write tidy data into a txt file
+write.table(average_subject_activity, file="tidyData.txt", row.name=FALSE)
