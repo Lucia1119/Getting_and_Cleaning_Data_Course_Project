@@ -1,4 +1,4 @@
-# Codebook of data clean
+# Codebook of getting and cleaning data
 This codebook describes the variables, the data, and any transformations performed to clean up the data.
 
 
