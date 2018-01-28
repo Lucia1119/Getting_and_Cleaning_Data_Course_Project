@@ -4,14 +4,14 @@ This codebook describes the variables, the data, and any transformations or work
 
 ## files
 ### file paths
-feature_path	
-activityLabels_path	
-testSet_path	
-testLabel_path	
-testSubject_path	
-trainSet_path	
-train Label_path	
-trainSubject_path	
+feature_path <br /> 
+activityLabels_path <br /> 
+testSet_path <br /> 
+testLabel_path <br /> 
+testSubject_path <br /> 
+trainSet_path <br /> 
+train Label_path <br /> 
+trainSubject_path <br /> 
 ### tables read directly from txt files
 testSetTable	
 testLabelTable	
